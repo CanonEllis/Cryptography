@@ -1,0 +1,19 @@
+<html>
+	<script>
+		let string = "It is unknown how effective the Caesar cipher was at the time; there is no record at that time of any techniques for the solution of simple substitution ciphers   The earliest surviving records date to the 9th-century works of Al-Kindi in the Arab world with the discovery of frequency analysis    7   A Caesar cipher with a shift of one is used on the back of the mezuzah to encrypt the names of God   This may be a holdover from an earlier time when Jewish people were not allowed to hav mezuzot The letters of the cryptogram themselves comprise a religiously significant   divine name   which Orthodox belief holds keeps the forces of evil in check In the 19th century   the personal advertisements section in newspapers would sometimes be used to exchange messages encrypted using simple cipher schemes   Kahn (1967) describes instances of lovers engaging in secret communications enciphered using the Caesar cipher in The Times    9   Even as late as 1915   the Caesar cipher was in use: the Russian army employed it as a replacement for more complicated ciphers which had proved to be too difficult for their troops to master; German and Austrian cryptanalysts had little difficulty in decrypting their messages construction of two rotating disks with a Caesar cipher can be used to encrypt or decrypt the code Caesar ciphers can be found today in children  s toys such as secret decoder rings  Caesar shift of thirteen is also performed in the rot13 algorithm   a simple method of obfuscating text widely found on Usenet and used to obscure text (such as joke punchlines and story spoilers but not seriously used as a method of encryption It is unknown how effective the Caesar cipher was at the time; there is no record at that time of any techniques for the solution of simple substitution ciphers   The earliest surviving records date to the 9th-century works of Al-Kindi in the Arab world with the discovery of frequency analysis    7   A Caesar cipher with a shift of one is used on the back of the mezuzah to encrypt the names of God   This may be a holdover from an earlier time when Jewish people were not allowed to hav mezuzot The letters of the cryptogram themselves comprise a religiously significant   divine name   which Orthodox belief holds keeps the forces of evil in check In the 19th century   the personal advertisements section in newspapers would sometimes be used to exchange messages encrypted using simple cipher schemes   Kahn (1967) describes instances of lovers engaging in secret communications enciphered using the Caesar cipher in The Times    9   Even as late as 1915   the Caesar cipher was in use: the Russian army employed it as a replacement for more complicated ciphers which had proved to be too difficult for their troops to master; German and Austrian cryptanalysts had little difficulty in decrypting their messages construction of two rotating disks with a Caesar cipher can be used to encrypt or decrypt the code Caesar ciphers can be found today in children  s toys such as secret decoder rings  Caesar shift of thirteen is also performed in the rot13 algorithm   a simple method of obfuscating text widely found on Usenet and used to obscure text (such as joke punchlines and story spoilers but not seriously used as a method of encryption"
+    var Module = {
+      onRuntimeInitialized: function() {
+        console.log(Module.vig(string,"CYPHER","-p"),",");
+				console.log("-------------------------------");
+				console.log(Module.caesar(string,2,"-p"),",");
+				console.log("-------------------------------");
+				console.log(Module.rot13(string,"-p"),",");
+
+
+    }
+		//const t1 = performance.now();
+	//	console.log(`${t1 - t0},`);
+	}
+  </script>
+  <script src="encryption.js"></script>
+</html>
