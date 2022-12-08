@@ -13,13 +13,21 @@
      onRuntimeInitialized: function() {
           document.write("Caesar: ");
           document.write("<br>");
-          document.write(Module.caesar(" The Caesar Box, or Caesar Cipher, is one of the earliest known ciphers. Developed around 100 BC, it was used by Julius Caesar to send secret messages to his generals in the field. In the event that one of his messages got intercepted, his opponent could not read them.",2, "-e"));
+          document.write(Module.caesar("This is a test of the caesar cypher",2, "-e"));
+          document.write(Module.caesar("This is a test of the caesar cypher","-p"));
          document.write("<br>");
           document.write("----------------------------");
           document.write("<br>");
           document.write("Rot13: ");
           document.write("<br>");
          document.write(Module.rot13("This is a test of the caesar cypher","-e"));
+          document.write(Module.rot13("This is a test of the caesar cypher","-p"));
+          document.write("----------------------------");
+          document.write("<br>");
+          document.write("Rot13: ");
+          document.write("<br>");
+         document.write(Module.vig("This is a test of the Vigenère cypher","TEST","-e"));
+         document.write(Module.vig("This is a test of the Vigenère cypher","TEST","-p"));
       }
    }
 
