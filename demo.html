@@ -14,6 +14,7 @@
           document.write("Caesar: ");
           document.write("<br>");
           document.write(Module.caesar("This is a test of the caesar cypher",2, "-e"));
+          document.write("<br>");
           document.write(Module.caesar("This is a test of the caesar cypher",2,"-p"));
          document.write("<br>");
           document.write("----------------------------");
@@ -24,9 +25,10 @@
           document.write(Module.rot13("This is a test of the caesar cypher","-p"));
           document.write("----------------------------");
           document.write("<br>");
-          document.write("Rot13: ");
+          document.write("Vigenère: ");
           document.write("<br>");
          document.write(Module.vig("This is a test of the Vigenère cypher","TEST","-e"));
+          document.write("<br>");
          document.write(Module.vig("This is a test of the Vigenère cypher","TEST","-p"));
       }
    }
