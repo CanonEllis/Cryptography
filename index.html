@@ -277,12 +277,16 @@
         library makes use of some of the most begginer friendly encryption processes
         to help students learn the ins and outs of cryptography. The code can be
         called as a module in HTML files or run in js files using NODE. The customer
-        can encrypt multiple different phrases at a time.</h4>
+        can encrypt multiple different phrases at a time. The objective of this library was to make
+      the concept of cryptography open to a wider audience by showing off some of the lower level versions
+    that existed before some of the more modern techniques.</h4>
         <br>
-      <p>The library can be easily access and used in different formats</p>
+      <p>The library can be easily access and used in different formats. The code base
+      can also be implemented in previously made websites, for example, class websites to teach
+    about computer security.</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span>
+      <span class="glyphicon glyphicon-education logo"></span>
     </div>
   </div>
 </div>
@@ -290,13 +294,16 @@
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo"></span>
+      <span class="glyphicon glyphicon-wrench logo"></span>
     </div>
     <div class="col-sm-8">
       <h2>Example</h2><br>
       <h4><strong>Unencrypted:</strong> The "Caesar Box," or "Caesar Cipher," is one of the earliest known ciphers. Developed around 100 BC, it was used by Julius Caesar to send secret messages to his generals in the field. In the event that one of his messages got intercepted, his opponent could not read them.</h4><br>
 
       <p><strong>Encrypted:</strong> The "Caesar Box," or "Caesar Cipher," is one of the earliest known ciphers. Developed around 100 BC, it was used by Julius Caesar to send secret messages to his generals in the field. In the event that one of his messages got intercepted, his opponent could not read them.</p>
+
+      <p>The above example is a demostration of the Caesar cypher </p>
+
     </div>
   </div>
 </div>
@@ -373,6 +380,7 @@
         </div>
         <div class="panel-footer">
           <h3>Example</h3>
+          <code>caesar(phrase,shift,version)</code>
           <code>Module.caesar("This is a test of the caesar cypher",2, "-e");</code>
         </div>
       </div>
@@ -389,7 +397,8 @@
         </div>
         <div class="panel-footer">
           <h3>Example</h3>
-          <h4>per month</h4>
+          <code>vig(phrase,key,version)</code>
+          <code>Module.vig("This is a test of the Vigenère cypher","Test","-p")</code>
         </div>
       </div>
     </div>
@@ -405,7 +414,8 @@
         </div>
         <div class="panel-footer">
           <h3>Example</h3>
-          <h4>per month</h4>
+          <code>rot13(phrase,version)</code>
+          <code>Module.rot13("This is a test of the rot13 cypher","-p")</code>
         </div>
       </div>
     </div>
