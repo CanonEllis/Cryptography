@@ -11,10 +11,13 @@
 <script>
      var Module = {
      onRuntimeInitialized: function() {
-          document.write("Caesar");
+          document.write("Caesar \n");
           document.write(Module.caesar("This is a test of the caesar cypher",2, "-e"));
+          document.write("\n");
           document.write("----------------------------");
+          document.write("\n");
           document.write("Rot13");
+          document.write("\n");
          document.write(Module.rot13("This is a test of the caesar cypher","-e"));
       }
    }
